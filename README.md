@@ -17,7 +17,17 @@ username: `manager`
 password: `123456`  
 Firstly you need to add question and choose its type(binary or multiple), then you can modify this questions answers, click "Modify Answers" button to choose and modify its answers.
 
+#### admin login page
+![alt tag](/rsc/login.PNG)
 
 ### project review
 ##### Home page
-![alt tag](/rsc/home.png?raw=true "Home page")
+![alt tag](/rsc/home.PNG)
+
+#### Quizz Page
+After choosing mode you will be appear in quiz start page, and as soon as you click start button questions will show up
+![alt tag](/rsc/start.PNG)
+
+#### Questions
+![alt tag](/rsc/quiz.PNG)
+
