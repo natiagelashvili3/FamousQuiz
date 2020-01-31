@@ -9,7 +9,14 @@ In this project system will ask user to choose quiz type: Binary(yes/no) or Mult
 
 ### Configuration
 In config/Config class you will find main configuration file, it contains Database configuration and host configuration parameters which is required.  	
-In database folder you will find the backup of the database than can be imported in your table.
+In database folder you will find the backup of the database than can be imported in your table.  
+```csharp
+<VirtualHost *:80>  
+    DocumentRoot "C:/xampp/htdocs/quiz/public"  
+    ServerName quiz.app  
+</VirtualHost>
+```
+
 
 ### Login in admin panel
 With /admin you will appear in admin login page, to log in please enter  
