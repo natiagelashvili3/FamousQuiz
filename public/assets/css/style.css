@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'NotoSans-Regular';
+    src: url('../fonts/NotoSans-Regular.eot');
+    src: url('../fonts/NotoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSans-Regular.svg#NotoSans-Regular') format('svg'),
+        url('../fonts/NotoSans-Regular.ttf') format('truetype'),
+        url('../fonts/NotoSans-Regular.woff') format('woff'),
+        url('../fonts/NotoSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSans-Bold';
+    src: url('../fonts/NotoSans-Bold.eot');
+    src: url('../fonts/NotoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSans-Bold.svg#NotoSans-Regular') format('svg'),
+        url('../fonts/NotoSans-Bold.ttf') format('truetype'),
+        url('../fonts/NotoSans-Bold.woff') format('woff'),
+        url('../fonts/NotoSans-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	padding: 0;
+	margin: 0;
+    font-family: "NotoSans-Regular";
+}
+body{
+    background-color: rgba(236, 240, 241, 0.4);
+}
+.site-header{
+	background-color: white;
+    padding: 25px 100px;
+    text-align: right;
+    border-bottom: 1px solid #ecf0f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-header .logo{
+    color: #5352ed;
+    font-weight: bold;
+    font-size: 25px;
+}
+.site-header .link-item{
+	color: #5352ed;
+    font-weight: bold;
+    transition: .2s ease;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.site-header .link-item.active{
+	color: #181818;
+}
+.site-header .link-item:hover {
+    color: #4746cf;
+    text-decoration: none;
+}
+.home-text{
+	margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.btn.primary {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 16px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 350px;
+    background: #5352ed;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+.question-cnt{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+.quiz-container{
+    width: 350px;
+    margin: 50px auto 20px;
+    text-align: center;
+}
+button.answer{
+    padding: 16px;
+    margin-top: 20px;
+    background: #ffffff;
+    color: #5352ed;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    border: 1px solid #ecf0f1;
+    transition: 0.2s ease;
+}
+button.answer:hover{
+    background: #5352ed;
+    color: #ffffff;
+}
+.btn-container{
+    text-align: center;
+}
+.btn-container button{
+    padding: 16px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    width: 350px;
+    background: #5352ed;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+.btn-container button:hover, .btn.primary:hover{
+    background: #4746cf;
+}
+.score{
+    text-align: center;
+    font-size: 50px;
+}
+.question-heading{
+    text-align: center;
+    color: #181818;
+}
+.empty-s{
+    font-weight: bold;
+}
+.quiz-title{
+    text-align: center;
+    margin: 30px 0;
+}
+.main-quiz{
+    background-image: url('../img/Illustration.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 180px 0;
+}
+.main-quiz-2{
+    background-image: url('../img/illustration_2.png');
+}
+.main-container{
+    text-align: center;
+    padding-top: 50px;
+}
+.main-container a{
+    background: white;
+    padding: 60px 120px;
+    color: #181818;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 0 20px;
+    transition: .2s ease;
+    font-weight: bold;
+    color: #5352ed;
+    display: inline-block;
+}
+.main-container a:hover{
+    background: #5352ed;
+    color: white;
+}
+
+.main-container h1{
+    margin-bottom: 50px;
+}
